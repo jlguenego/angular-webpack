@@ -1,7 +1,10 @@
-
 import './style.scss';
 
-const app = angular.module('main', []);
+import './jlg-layout/jlg-layout.js';
+
+const app = angular.module('main', [
+    'jlg-layout',
+]);
 
 app.run(($rootScope) => {
     'ngInject';
