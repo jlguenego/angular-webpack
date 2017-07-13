@@ -1,6 +1,5 @@
-import './style.scss';
 
-import 'angular';
+import './style.scss';
 
 const app = angular.module('main', []);
 
